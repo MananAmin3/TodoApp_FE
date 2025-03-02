@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
 
 
   onSubmit(): void {
-    environment.BASE_URL
+    //environment.BASE_URL
     if (this.loginForm.valid) {
       const email = this.loginForm.get('email')!.value;
       const password = this.loginForm.get('password')!.value;
